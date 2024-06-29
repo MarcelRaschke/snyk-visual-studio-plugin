@@ -1,5 +1,25 @@
 # Snyk Security Changelog
 
+## [1.1.59]
+
+### Fixed
+- Change Default API Endpoint to https://api.snyk.io.
+
+## [1.1.58]
+
+### Fixed
+- Rendering issue in Settings page.
+
+## [1.1.57]
+
+### Fixed
+- Change analytics scan status from "Succeeded" to "Success".
+
+## [1.1.56]
+
+### Fixed
+- Send current solution folder path when sending Analytics.
+
 ## [1.1.55]
 
 ### Fixed

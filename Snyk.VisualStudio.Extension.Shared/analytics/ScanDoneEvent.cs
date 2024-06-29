@@ -34,7 +34,9 @@ namespace Snyk.VisualStudio.Extension.Shared.CLI
             IntegrationEnvironment = options.IntegrationEnvironment;
             IntegrationEnvironmentVersion = options.IntegrationEnvironmentVersion;
         }
-
+        
+        public string Path { get; set; }
+        
         public string DeviceId { get;  }
         
         public string Application { get;  }
@@ -73,7 +75,7 @@ namespace Snyk.VisualStudio.Extension.Shared.CLI
         
         public string EventType => "Scan done";
         
-        public string Status => "Succeeded";
+        public string Status => "Success";
         
         public string ScanType { get; set; }
         
